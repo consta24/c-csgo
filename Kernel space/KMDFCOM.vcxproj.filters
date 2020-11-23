@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Cheats">
+      <UniqueIdentifier>{7539e4c5-2f91-419e-9ec1-809201cbc442}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LocalPlayer">
+      <UniqueIdentifier>{816eca69-a883-4e79-9fbc-68af21d01b11}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Entity">
+      <UniqueIdentifier>{316397c1-eb19-48d3-9cb7-da1e90c2701a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Socket">
+      <UniqueIdentifier>{61e6f21a-77ec-47d5-8ce5-42bf744ca55f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sell Stuff">
+      <UniqueIdentifier>{adf001e1-54b0-4549-ba2e-d1468b4a329a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="LocalPlayer.h">
+      <Filter>LocalPlayer</Filter>
+    </ClInclude>
+    <ClInclude Include="Entity.h">
+      <Filter>Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="Aimbot.h">
+      <Filter>Cheats</Filter>
+    </ClInclude>
+    <ClInclude Include="headers.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Socket.h">
+      <Filter>Socket</Filter>
+    </ClInclude>
+    <ClInclude Include="SocketShare.h">
+      <Filter>Socket</Filter>
+    </ClInclude>
+    <ClInclude Include="WTS.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="csgo.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GlobalVars.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Knifebot.h">
+      <Filter>Cheats</Filter>
+    </ClInclude>
+    <ClInclude Include="HWIDMac.h">
+      <Filter>Sell Stuff</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SkinChanger.h">
+      <Filter>Cheats</Filter>
+    </ClInclude>
+    <ClInclude Include="Weapons.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Glow.h">
+      <Filter>Cheats</Filter>
+    </ClInclude>
+    <ClInclude Include="Radar.h">
+      <Filter>Cheats</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LocalPlayer.cpp">
+      <Filter>LocalPlayer</Filter>
+    </ClCompile>
+    <ClCompile Include="Entity.cpp">
+      <Filter>Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="Socket.cpp">
+      <Filter>Socket</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="KMDFCOM.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="icon1.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

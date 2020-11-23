@@ -1,0 +1,50 @@
+﻿  Building 'kernel_socket_server' with toolset 'WindowsKernelModeDriver10.0' and the 'Desktop' target platform.
+  Stamping x64\Release\kernel_socket_server.inf
+  Stamping [Version] section with DriverVer=03/04/2020,12.54.49.445
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.24.28316 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Ix64\Release\ /Zi /W4 /WX- /diagnostics:column /Ox /Oi /Ot /Oy- /GL /D _WIN64 /D _AMD64_ /D AMD64 /D _WIN32_WINNT=0x0A00 /D WINVER=0x0A00 /D WINNT=1 /D NTDDI_VERSION=0x0A000007 /GF /Gm- /Zp8 /GS- /guard:cf /Gy /fp:precise /Qspectre /Zc:wchar_t- /Zc:forScope /Zc:inline /GR- /std:c++17 /Fo"x64\Release\\" /Fd"x64\Release\vc142.pdb" /FR"x64\Release\\" /Gz /wd4603 /wd4627 /wd4986 /wd4987 /wd4996 /FI"C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\warning.h" /FC /errorReport:prompt /kernel -cbstring -d2epilogunwind  /d1nodatetime /d1import_no_registry /d2AllowCompatibleILVersions /d2Zi+ main.cpp packet_handler.cpp server.cpp
+  main.cpp
+  packet_handler.cpp
+C:\Users\andre\Desktop\FUTURE\kernelmode\kernel_socket_server\packet_handler.cpp(195,34): warning C4189: 'module': local variable is initialized but not referenced
+C:\Users\andre\Desktop\FUTURE\kernelmode\kernel_socket_server\log.h(5,22): warning C4100: 'format': unreferenced formal parameter
+C:\Users\andre\Desktop\FUTURE\kernelmode\kernel_socket_server\imports.h(322): message : see reference to function template instantiation 'void log<>(const char *)' being compiled
+C:\Users\andre\Desktop\FUTURE\kernelmode\kernel_socket_server\log.h(5): warning C4100: '<args_0>': unreferenced formal parameter
+C:\Users\andre\Desktop\FUTURE\kernelmode\kernel_socket_server\packet_handler.cpp(92): message : see reference to function template instantiation 'void log<ULONG>(const char *,ULONG)' being compiled
+  server.cpp
+C:\Users\andre\Desktop\FUTURE\kernelmode\kernel_socket_server\log.h(5,22): warning C4100: 'format': unreferenced formal parameter
+C:\Users\andre\Desktop\FUTURE\kernelmode\kernel_socket_server\server.cpp(18): message : see reference to function template instantiation 'void log<>(const char *)' being compiled
+C:\Users\andre\Desktop\FUTURE\kernelmode\kernel_socket_server\log.h(5): warning C4100: '<args_0>': unreferenced formal parameter
+C:\Users\andre\Desktop\FUTURE\kernelmode\kernel_socket_server\server.cpp(75): message : see reference to function template instantiation 'void log<NTSTATUS>(const char *,NTSTATUS)' being compiled
+  Microsoft (R) Incremental Linker Version 14.24.28316.0
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  "/OUT:C:\Users\andre\Desktop\FUTURE\kernelmode\x64\Release\kernel_socket_server.sys" "/VERSION:10.0" /INCREMENTAL:NO /WX "/SECTION:INIT,d" Netio.lib "C:\Program Files (x86)\Windows Kits\10\lib\10.0.18362.0\km\x64\BufferOverflowFastFailK.lib" "C:\Program Files (x86)\Windows Kits\10\lib\10.0.18362.0\km\x64\ntoskrnl.lib" "C:\Program Files (x86)\Windows Kits\10\lib\10.0.18362.0\km\x64\hal.lib" "C:\Program Files (x86)\Windows Kits\10\lib\10.0.18362.0\km\x64\wmilib.lib" /NODEFAULTLIB /MANIFEST:NO /DEBUG "/PDB:C:\Users\andre\Desktop\FUTURE\kernelmode\x64\Release\kernel_socket_server.pdb" "/SUBSYSTEM:NATIVE,10.00" /LARGEADDRESSAWARE /Driver /OPT:REF /OPT:ICF /LTCG:incremental "/ENTRY:DriverEntry" /RELEASE /DYNAMICBASE /NXCOMPAT "/IMPLIB:C:\Users\andre\Desktop\FUTURE\kernelmode\x64\Release\kernel_socket_server.lib" "/MERGE:_TEXT=.text;_PAGE=PAGE" /MACHINE:X64 /guard:cf /kernel /IGNORE:4198,4010,4037,4039,4065,4070,4078,4087,4089,4221,4108,4088,4218,4218,4235 /osversion:10.0 /pdbcompress /debugtype:pdata x64\Release\berkeley.obj 
+  x64\Release\ksocket.obj 
+  x64\Release\main.obj 
+  x64\Release\packet_handler.obj 
+  x64\Release\server.obj 
+  Generating code
+  16 of 47 functions (34.0%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  kernel_socket_server.vcxproj -> C:\Users\andre\Desktop\FUTURE\kernelmode\x64\Release\kernel_socket_server.sys
+  Done Adding Additional Store
+  Successfully signed: C:\Users\andre\Desktop\FUTURE\kernelmode\x64\Release\kernel_socket_server.sys
+  
+  .........................
+  Signability test complete.
+  
+  Errors:
+  None
+  
+  Warnings:
+  None
+  
+  Catalog generation complete.
+  C:\Users\andre\Desktop\FUTURE\kernelmode\x64\Release\kernel_socket_server\kernel_socket_server.cat
+  Done Adding Additional Store
+  Successfully signed: C:\Users\andre\Desktop\FUTURE\kernelmode\x64\Release\kernel_socket_server\kernel_socket_server.cat
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\km\wdm.h(43435): warning BK4504: file contains too many references; ignoring further references from this source

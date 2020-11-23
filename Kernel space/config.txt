@@ -1,0 +1,5 @@
+//SYNWARE CONFIG
+
+SYNsmooth: 30 { Smooth value should be around 10-50, recommended 30}
+SYNfov: 60
+SYNrecoil: 2.0 { Recoil value should be around 1.0 ( none ) to 3.0 ( full ), recommended 2.0 }
